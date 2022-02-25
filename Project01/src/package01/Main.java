@@ -12,5 +12,8 @@ public class Main {
 
         for(String key : maps.keySet())
             System.out.println(key+": "+maps.get(key));
+
+        Student student=new Student("Janja","Janjic",8.9);
+        System.out.println(student);
     }
 }
